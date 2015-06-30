@@ -325,7 +325,7 @@ var showTriangle = function() {
   }
   else {
     setTimeout(function(){
-      var pointsandcolors = prepshard(introTriangle, 300, 500);
+      var pointsandcolors = prepshard(indiashard, 300, 500);
       change(pointsandcolors[0].reverse(),pointsandcolors[1].reverse(), 40);
       changebodybackground('#ecf0f1');
     }, 100);
