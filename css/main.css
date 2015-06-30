@@ -10,9 +10,6 @@ html, body {
  font-family: roboto;
  background-color: white;
  -webkit-transition: background-color 1s linear;
-   -moz-transition: background-color 1s linear;
-   -o-transition: background-color 1s linear;
-   -ms-transition: background-color 1s linear;
    transition: background-color 1s linear;
 }
 
@@ -21,7 +18,6 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     background: rgba(204,62,62,1);
 }
@@ -269,8 +265,6 @@ html, body {
   height:100%;
   width:100%;
   background: -webkit-radial-gradient(circle, rgba(255,255,255,0.4), rgba(255,255,255,0));
-  background: -o-radial-gradient(circle, rgba(255,255,255,0.4), rgba(255,255,255,0));
-  background: -moz-radial-gradient(circle, rgba(255,255,255,0.4), rgba(255,255,255,0));
   background: radial-gradient(circle, rgba(255,255,255,0.4), rgba(255,255,255,0));
 }
 
@@ -314,7 +308,6 @@ html, body {
 
 .shine {
   -webkit-animation: shimmer 0.8s 0.07s forwards;
-  -moz-animation: shimmer 0.8s 0.07s forwards;
   animation: shimmer 0.8s 0.07s forwards;
 }
 
@@ -336,7 +329,9 @@ html, body {
 
 .holder2{
   width: 100%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   position: absolute;
   top: 40%;
   left: 50%;
@@ -383,9 +378,6 @@ html, body {
   right: 20%;
   margin-right: -25px;
   -webkit-transition: background 0.3s linear;
-    -moz-transition: background 0.3s linear;
-    -o-transition: background 0.3s linear;
-    -ms-transition: background 0.3s linear;
     transition: background 0.3s linear;
 }
 

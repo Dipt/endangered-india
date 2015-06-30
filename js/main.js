@@ -201,9 +201,12 @@ var change = function(points, colors, type) {
     setTimeout(function(){
       console.log(points[i]);
       shard.css({
-          "-webkit-clip-path": polygon,
+          "-moz-clip-path": polygon,
+          "clip-path": polygon,
+          "-ms-clip-path": polygon,
           "background": colors[i],
-          "z-index": i-31
+          "z-index": i-31,
+          "-webkit-clip-path": polygon,
             });
     }, speed);
   };
