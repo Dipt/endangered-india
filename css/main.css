@@ -327,16 +327,6 @@ html, body {
   z-index: 0;
 }
 
-.holder2{
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
-  top: 40%;
-  left: 50%;
-}
-
 .circlebtn {
   background-size: cover;
   z-index: 50;
@@ -423,14 +413,18 @@ html, body {
 }
 
 /*phones*/
-@media(max-width:767px){
+@media(max-width:460px){
   #name {
     top:70%;
     font-size:1.7em;
   }
+  .holder1 {
+    padding-top: 33%;
+    height: 0;
+  }
 }
 /*tabs*/
-@media(min-width:768px){
+@media(min-width:461px){
   #left, #right {
 		width: 7px;
 	}
@@ -439,10 +433,9 @@ html, body {
   }
 
   .holder1{
+    bottom: -3%;
+    height: 70%;
     width: 80%;
-  }
-  .holder2{
-    top: 40%;
   }
 
   #about {
@@ -488,9 +481,7 @@ html, body {
   .holder1{
     width: 60%;
   }
-  .holder2{
-    top: 40%;
-  }
+
   #left, #right {
 		width: 10px;
 	}
@@ -500,3 +491,242 @@ html, body {
 }
 /*large screens*/
 @media(min-width:1200px){}
+
+/*.shard:nth-child(1) {
+  -webkit-transition-delay: 0ms;
+    -moz-transition-delay: 0ms;
+    -o-transition-delay: 0ms;
+    transition-delay: 0ms;
+    z-index: -31;
+}
+
+.shard:nth-child(2) {
+  -webkit-transition-delay: 30ms;
+    -moz-transition-delay: 30ms;
+    -o-transition-delay: 30ms;
+    transition-delay: 30ms;
+    z-index: -30;
+}
+.shard:nth-child(3) {
+  -webkit-transition-delay: 60ms;
+    -moz-transition-delay: 60ms;
+    -o-transition-delay: 60ms;
+    transition-delay: 60ms;
+    z-index: -29;
+}
+
+.shard:nth-child(4) {
+  -webkit-transition-delay: 90ms;
+    -moz-transition-delay: 90ms;
+    -o-transition-delay: 90ms;
+    transition-delay: 90ms;
+    z-index: -28;
+}
+
+.shard:nth-child(5) {
+  -webkit-transition-delay: 120ms;
+    -moz-transition-delay: 120ms;
+    -o-transition-delay: 120ms;
+    transition-delay: 120ms;
+    z-index: -27;
+}
+
+.shard:nth-child(6) {
+  -webkit-transition-delay: 150ms;
+    -moz-transition-delay: 150ms;
+    -o-transition-delay: 150ms;
+    transition-delay: 150ms;
+    z-index: -26;
+}
+
+.shard:nth-child(7) {
+  -webkit-transition-delay: 180ms;
+    -moz-transition-delay: 180ms;
+    -o-transition-delay: 180ms;
+    transition-delay: 180ms;
+    z-index: -25;
+}
+
+.shard:nth-child(8) {
+  -webkit-transition-delay: 210ms;
+    -moz-transition-delay: 210ms;
+    -o-transition-delay: 210ms;
+    transition-delay: 210ms;
+    z-index: -24;
+}
+
+.shard:nth-child(9) {
+  -webkit-transition-delay: 240ms;
+    -moz-transition-delay: 240ms;
+    -o-transition-delay: 240ms;
+    transition-delay: 240ms;
+    z-index: -23;
+}
+
+.shard:nth-child(10) {
+  -webkit-transition-delay: 270ms;
+    -moz-transition-delay: 270ms;
+    -o-transition-delay: 270ms;
+    transition-delay: 270ms;
+    z-index: -22;
+}
+
+.shard:nth-child(11) {
+  -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+    z-index: -21;
+}
+
+.shard:nth-child(12) {
+  -webkit-transition-delay: 330ms;
+    -moz-transition-delay: 330ms;
+    -o-transition-delay: 330ms;
+    transition-delay: 330ms;
+    z-index: -20;
+}
+
+.shard:nth-child(13) {
+  -webkit-transition-delay: 360ms;
+    -moz-transition-delay: 360ms;
+    -o-transition-delay: 360ms;
+    transition-delay: 360ms;
+    z-index: -19;
+}
+
+.shard:nth-child(14) {
+  -webkit-transition-delay: 390ms;
+    -moz-transition-delay: 390ms;
+    -o-transition-delay: 390ms;
+    transition-delay: 390ms;
+    z-index: -18;
+}
+
+.shard:nth-child(15) {
+  -webkit-transition-delay: 420ms;
+    -moz-transition-delay: 420ms;
+    -o-transition-delay: 420ms;
+    transition-delay: 420ms;
+    z-index: -17;
+}
+
+.shard:nth-child(16) {
+  -webkit-transition-delay: 450ms;
+    -moz-transition-delay: 450ms;
+    -o-transition-delay: 450ms;
+    transition-delay: 450ms;
+    z-index: -16;
+}
+
+.shard:nth-child(17) {
+  -webkit-transition-delay: 480ms;
+    -moz-transition-delay: 480ms;
+    -o-transition-delay: 480ms;
+    transition-delay: 480ms;
+    z-index: -15;
+}
+
+.shard:nth-child(18) {
+  -webkit-transition-delay: 510ms;
+    -moz-transition-delay: 510ms;
+    -o-transition-delay: 510ms;
+    transition-delay: 510ms;
+    z-index: -14;
+}
+
+.shard:nth-child(19) {
+  -webkit-transition-delay: 540ms;
+    -moz-transition-delay: 540ms;
+    -o-transition-delay: 540ms;
+    transition-delay: 540ms;
+    z-index: -13;
+}
+
+.shard:nth-child(20) {
+  -webkit-transition-delay: 570ms;
+    -moz-transition-delay: 570ms;
+    -o-transition-delay: 570ms;
+    transition-delay: 570ms;
+    z-index: -12;
+}
+
+.shard:nth-child(21) {
+  -webkit-transition-delay: 600ms;
+    -moz-transition-delay: 600ms;
+    -o-transition-delay: 600ms;
+    transition-delay: 600ms;
+    z-index: -11;
+}
+
+.shard:nth-child(22) {
+  -webkit-transition-delay: 630ms;
+    -moz-transition-delay: 630ms;
+    -o-transition-delay: 630ms;
+    transition-delay: 630ms;
+    z-index: -10;
+}
+
+.shard:nth-child(23) {
+  -webkit-transition-delay: 660ms;
+    -moz-transition-delay: 660ms;
+    -o-transition-delay: 660ms;
+    transition-delay: 660ms;
+    z-index: -9;
+}
+
+.shard:nth-child(24) {
+  -webkit-transition-delay: 690ms;
+    -moz-transition-delay: 690ms;
+    -o-transition-delay: 690ms;
+    transition-delay: 690ms;
+    z-index: -8;
+}
+
+.shard:nth-child(25) {
+  -webkit-transition-delay: 720ms;
+    -moz-transition-delay: 720ms;
+    -o-transition-delay: 720ms;
+    transition-delay: 720ms;
+    z-index: -7;
+}
+
+.shard:nth-child(26) {
+  -webkit-transition-delay: 750ms;
+    -moz-transition-delay: 750ms;
+    -o-transition-delay: 750ms;
+    transition-delay: 750ms;
+    z-index: -6;
+}
+
+.shard:nth-child(27) {
+  -webkit-transition-delay: 780ms;
+    -moz-transition-delay: 780ms;
+    -o-transition-delay: 780ms;
+    transition-delay: 780ms;
+    z-index: -5;
+}
+
+.shard:nth-child(28) {
+  -webkit-transition-delay: 810ms;
+    -moz-transition-delay: 810ms;
+    -o-transition-delay: 810ms;
+    transition-delay: 810ms;
+    z-index: -4;
+}
+
+.shard:nth-child(29) {
+  -webkit-transition-delay: 840ms;
+    -moz-transition-delay: 840ms;
+    -o-transition-delay: 840ms;
+    transition-delay: 840ms;
+    z-index: -3;
+}
+
+.shard:nth-child(30) {
+  -webkit-transition-delay: 870ms;
+    -moz-transition-delay: 870ms;
+    -o-transition-delay: 870ms;
+    transition-delay: 870ms;
+    z-index: -2;
+}*/
