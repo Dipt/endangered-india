@@ -56,11 +56,12 @@ var name = ['Siberian Crane',
            ];
 
 var bckcolor = ['#4393c9',
-                '#84A5DD',
-                '#64d6e2',
-                '#FDAED4',
-                '#785ebb',
-                '#a09de5',
+                '#617597',
+                '#afa571',
+                '#4aa3df',
+                '#FE967D',
+                '#5FA478',
+
                 '#A0CADB',
                 '#79BBB5',
                 '#F6D860',
@@ -298,6 +299,9 @@ var showGreeting = function(){
 var introHideElements = function(){
   $('#overlay').hide();
   $('#aboutwrapper').hide();
+  $('#shufflebox').hide();
+  $('#infobox').hide();
+  $('#aboutbox').hide();
   $('.circlebtn').hide();
   $('#name').hide();
   $('#counter').hide();
@@ -345,6 +349,9 @@ var BeginShowcase = function() {
     $('.circlebtn').fadeIn(1000);
     $('#name').fadeIn(1000);
     $('#counter').fadeIn(1000);
+    $('#shufflebox').fadeIn(1000);
+    $('#infobox').fadeIn(1000);
+    $('#aboutbox').fadeIn(1000);
   },3000);
 };
 
@@ -362,7 +369,7 @@ var shuffleoff = function() {
   if ( shuffleOn === true ) {
     clearInterval(shuffle);
     shuffleOn = false;
-    $('#shuffle').removeClass('shuffleon');
+    $('#shufflebox').removeClass('shuffleon');
   }
 };
 
@@ -488,12 +495,12 @@ $('#info').click(function(){
     infoView();
 });
 
-$('#shuffle').click(function(){
+$('#shufflebtn').click(function(){
     if( shuffleOn === false ) {
       shuffleSpecies();
       shuffle = setInterval(shuffleSpecies, 2500);
       shuffleOn = true;
-      $('#shuffle').addClass('shuffleon');
+      $('#shufflebox').addClass('shuffleon');
     }
     else {
       shuffleoff();
@@ -514,6 +521,12 @@ $('#closebtn').click(function(){
   $('#aboutwrapper').fadeOut(300);
   $('#overlay').fadeOut(500);
   shine = setInterval(shimmer, 4000);
+});
+
+$('.button').click(function (e) {
+  e.preventDefault();
+  $(this).parent().toggleClass('expand');
+  $(this).parent().children().toggleClass('expand');
 });
 
 })();
