@@ -5,7 +5,7 @@ src: url(../fonts/Angel.ttf);
 
 @font-face {
 font-family: snap;
-src: url(../fonts/snaphand.ttf);
+src: url(../fonts/Roboto.ttf);
 }
 
 @font-face {
@@ -26,9 +26,14 @@ html, body {
 h1{
   margin: 0px;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.75;
   font-weight: 100;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(204,62,62,1);
 }
 
 ::-webkit-scrollbar {
@@ -163,9 +168,9 @@ h1{
 		#bottom { bottom: 0; }
 
 #intro-heading {
-  top: 8%;
+  top: 5%;
   position: absolute;
-  font-size: 4.5em;
+  font-size: 5em;
   text-align: center;
   width: 100%;
   color: rgba(230,90,90,1);
@@ -177,10 +182,10 @@ h1{
 
 #intro-change {
   position: absolute;
-  top: 18%;
+  top: 15%;
   width:100%;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3em;
   color: #f39c12;
 }
 
@@ -239,33 +244,22 @@ h1{
 
 #browsermessage {
   color: white;
-  font-size: 1.2em;
+  font-size: 3em;
   padding: 5%;
 }
 
 #acceptbtn{
   color: rgba(184,32,32,1);
-  font-size: 1.3em;
+  font-size: 3em;
   cursor: pointer;
 }
 
-#detailheader {
-  margin-top: 70px;
-  margin-bottom: 0px;
-  font-size: 24px;
-  color: rgba(204,62,62,1);
-}
-
-#detailbody {
-  font-size: large;
-}
-
-#detailbody a {
+a {
   text-decoration: none;
   color: rgba(204,62,62,1);
 }
 
-#detailbody a:hover {
+a:hover {
   text-decoration: none;
 }
 
@@ -570,7 +564,11 @@ h1{
       left:auto;
       right: 5%;
   }
-
+  
+  .status{
+    font-family: lovelo;
+    font-size: 30px;
+  }
 
   .container {
     position: absolute;
@@ -637,7 +635,7 @@ h1{
     width: 100%;
     font-family: snap;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 14px;
     height: 100%;
     box-sizing: border-box;
   }

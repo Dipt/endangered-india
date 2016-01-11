@@ -20,9 +20,6 @@ var indiashard = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://ww
 
 var introTriangle = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="500px" height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve"><polygon fill="#2FA3CC" points="190.9,179.4 132,281.7 250,281.6"/><polygon fill="#EF3737" points="308.9,179.4 250,281.7 368,281.6"/><polygon fill="#1ABC9C" points="249.9,77.1 191,179.4 309,179.3"/><polygon fill="#F1C40F" points="309,179.6 191,179.4 249.9,281.7"/><polygon fill="#16A085" points="249.9,77.1 220.5,128.3 279.5,128.2"/><polygon fill="#2ECCAE" points="220.4,128.3 191,179.4 250,179.3"/><polygon fill="#66DDC6" points="279.5,128.3 250,179.4 309,179.3"/><polygon fill="#6CCAEA" points="190.9,179.4 161.5,230.5 220.5,230.5"/><polygon fill="#D35400" points="249.9,179.4 220.5,230.5 279.5,230.5"/><polygon fill="#F27575" points="309,179.4 279.5,230.5 338.5,230.5"/><polygon fill="#2D91C9" points="161.4,230.5 132,281.7 191,281.6"/><polygon fill="#37BCDB" points="220.4,230.5 191,281.7 250,281.6"/><polygon fill="#F44D4D" points="279.5,230.5 250,281.7 309,281.6"/><polygon fill="#DD3636" points="338.5,230.5 309,281.7 368,281.6"/><polygon fill="#16A085" points="250,128.3 235.2,153.8 264.8,153.8"/><polygon fill="#F39C12" points="220.5,179.4 205.7,205 235.2,204.9"/><polygon fill="#2C3E50" points="191,230.5 176.2,256.1 205.7,256.1"/><polygon fill="#F39C12" points="279.5,179.4 264.8,205 294.3,204.9"/><polygon fill="#F39C12" points="250,230.5 235.2,256.1 264.8,256.1"/><polygon fill="#D12828" points="309,230.5 294.3,256.1 323.8,256.1"/><polygon fill="#66DDC6" points="264.8,102.7 235.2,102.7 250,128.3"/><polygon fill="#37BCDB" points="176.2,256.2 146.7,256.1 161.4,281.7"/><polygon fill="#DD3636" points="294.3,256.2 264.8,256.1 279.5,281.7"/><polygon fill="#6CCAEA" points="235.2,256.2 205.7,256.1 220.5,281.7"/><polygon fill="#F1C40F" points="264.8,205 235.2,205 250,230.5"/><polygon fill="#2FA3CC" points="205.7,205 176.2,205 191,230.5"/><polygon fill="#1ABC9C" points="235.2,153.9 205.7,153.8 220.5,179.4"/><polygon fill="#2ECCAE" points="294.3,153.9 264.8,153.8 279.5,179.4"/><polygon fill="#F44D4D" points="323.8,205 294.3,205 309,230.5"/><polygon fill="#F27575" points="353.3,256.2 323.8,256.1 338.5,281.7"/></svg>'
 
-var aboutHeader = "About Endangered India";
-var aboutBody = "<strong>sss</strong> aa <a href='https://soundcloud.com/skinkofficial/skink-radio-025-showtek'>showtek</a>";
-
 var name = ['Siberian Crane',
             'Barasingha',
             'Himalayan Wolf',
@@ -38,7 +35,7 @@ var name = ['Siberian Crane',
             'Indian Elephant',
             'Red Headed Vulture',
             'Nilgiri Marten',
-            'Tibetian Antelope',
+            'Tibetan Antelope',
             'Bengal Florican',
             'Red Panda',
             'Dhole',
@@ -55,13 +52,44 @@ var name = ['Siberian Crane',
             'Yak'
            ];
 
+var FirefoxPath = ['siberiancrane',
+                   'himalayanwolf',
+                   'barasingha',
+                   'narcondamhornbill',
+                   'indianass',
+                   'gharial',
+                   'whitebelliedheron',
+                   'indianrhino',
+                   'smoothcoatedotter',
+                   'greatindianbustard',
+                   'indianbear',
+                   'goldenlangur',
+                   'indianelephant',
+                   'redheadedvulture',
+                   'nilgirimarten',
+                   'tibetianantelope',
+                   'bengalflorican',
+                   'redpanda',
+                   'dhole',
+                   'sociablelapwing',
+                   'markhor',
+                   'nicobarflyingfox',
+                   'assamroofedturtle',
+                   'guntherbushfrog',
+                   'forestowlet',
+                   'nilgiritahr',
+                   'himalayanquail',
+                   'roselineshark',
+                   'liontailedmacaque',
+                   'yak'
+                  ];
+
 var bckcolor = ['#4393c9',
                 '#617597',
                 '#afa571',
                 '#4aa3df',
                 '#FE967D',
                 '#5FA478',
-
                 '#A0CADB',
                 '#79BBB5',
                 '#F6D860',
@@ -89,37 +117,184 @@ var bckcolor = ['#4393c9',
                 '#87C4A3'
                ];
 
-var speciesdetail = ['detail html here, might bloat up js file :(',
-                     'detail html here, might bloat up js file :(',
-                     'detail html here, might bloat up js file :(',
-                     'hggh',
-                     'detail html here, might bloat up js file :(',
-                     'detail html here, might bloat up js file :(',
-                     'detail html here, might bloat up js file :(',
-                     'aadadad',
-                     'asdasdsdaqw',
-                     'asdasd',
-                     'asdasdasdasdasd',
-                     'asdasdalcmasc',
-                     'asdaasdasd',
-                     'asdads',
-                     'asdadasdasdqw',
-                     'ffxdadawdcvvv',
-                     'dqwdvterfsdvs',
-                     'asdasasdasdasw',
-                     'ygygljbjkjk',
-                     'asdasasdasd',
-                     'weowowmwfewfds',
-                     'adasqfewwjfiow',
-                     'adadqwqwfqcasca',
-                     'oemowemcoqmoeofwpmcd',
-                     'adadaqwdqwqw',
-                     'asidqwodhqidouqxnasca',
-                     'aihofqoiwqdnoqqqw',
-                     'yovsdnowejncklwc',
-                     'qjdpqwiqx',
-                     'weofwpofmwwecmwecec'
-                    ]
+var speciesdetail = ['<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Grus leucogeranus</p>'+
+                     '<p>The Siberian crane, also known as the Siberian white crane or the snow crane, is a bird of the family Gruidae, the cranes. They are distinctive among the cranes, adults are nearly all snowy white, except for their black primary feathers that are visible in flight and with two breeding populations in the Arctic tundra of western and eastern Russia. The eastern populations migrate during winter to China while the western population winters in Iran and formerly, in India and Nepal.</p>'+
+                     '<p>Their populations, particularly those in the western range, have declined drastically in the 20th century due to hunting along their migration routes and habitat degradation. The world population was estimated in 2010 at about 3,200 birds, mostly belonging to the eastern population with about 95% of them wintering in the Poyang Lake basin in China.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Siberian_crane">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Rucervus duvaucelii</p>'+
+                     '<p>The barasingha, also called swamp deer, is a deer species distributed in the Indian subcontinent. Populations in northern and central India are fragmented, and two isolated populations occur in southwestern Nepal. The swamp deer differs from all the Indian deer species in that the antlers carry more than three tines. Because of this distinctive character it is designated barasingha, meaning "twelve-tined". Mature stags have 10 to 14 tines, and some have been known to have up to 20.</p>'+
+                     '<p>Swamp deer lost most of its ancestral range because wetlands were converted and used for agriculture so that their habitat was reduced to small and isolated fragments. The remaining habitat in protected areas is threatened by the change in river dynamics, reduced water flow during summer, increasing siltation, and further degraded by local people who cut grass, timber and fuelwood. The swamp deer populations outside protected areas and seasonally migrating populations are threatened by poaching for antlers and meat, which are sold in local markets.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Barasingha">View Wikipedia page in new tab</a></p>',
+
+                     '<p>Scientific Name: Canis lupus chanco</p>'+
+                     '<p>The Himalayan wolf is basal to all extant Canis lupus subspecies. It has been suggested by several Indian biologists for recognition as a critically endangered canid species. Although the Indian government added the Himalayan wolf to the Endangered Species List in 1998, it still lacks legal protection in Tibet.</p>'+
+                     '<p>There are two major threats that continue to bear down on this vulnerable wolf species. The first and foremost is the human factor. The local people in the region continue to persecute and kill this wolf because they sometimes prey on their livestock. Although they are legally protected in India, they are not in Tibet even though most of its other charismatic vertebrates are under its protection. The second major threat to the Himalayan wolf is global warming and climate change. Because of this, the glaciers are being reduced and the temperature is rising. To make matters worse, the remote wilderness is also being disrupted by human activities and pollution which also threaten the existence of the wolves. It is estimated that about only 300 such individuals exist today.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Himalayan_wolf">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Rhyticeros narcondami</p>'+
+                     '<p>The Narcondam hornbill is a species of hornbill in the Bucerotidae family. It is endemic to the Indian island of Narcondam in the Andamans. Males and females have a distinct plumage. The Narcondom hornbill has the smallest home range out of all the species of Asian hornbills.</p>'+
+                     '<p>The entire population (estimate of about 200 birds in 1905 and 1984) is restricted to the single island of Narcondam in the Andaman Island chain. The island is clothed in forests and rises to a height of about 2300 feet above sea level. It is largely devoid of human presence. The island is often hit by cyclonic storms in the Bay of Bengal. In 2000, an estimate of 434 birds was made for the population, with a density of 54 to 72 birds per square kilometre on the island, which has an area of about 6.8 square kilometres.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Narcondam_hornbill">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Equus hemionus khur</p>'+
+                     '<p>The Indian wild ass or Baluchi wild ass also called the ghudkhur in the local Gujarati language, is a subspecies of the onager native to Southern Asia.</p>'+
+                     '<p>It is unknown how the Indian wild ass disappeared from its former haunts in parts of western India and Pakistan, since the animal was never a hunting target of Indian Maharajas and colonial British officials of the British Raj. However, Mughal Emperors and noblemen from the time took great pleasure in hunting it with Emperor Jahangir in his book Tuzk-e-Jahangiri. In an illustrated copy that has survived of Akbarnama, the book of Mughal Emperor Akbar the Great there is an illustration of Akbar on an Indian wild ass shoot with several of them having been shot by him. From 1958-1960, the wild ass became a victim of a disease known as surra, caused by Trypanosoma evansi and transmitted by flies, which caused a dramatic decline of its population in India. In November and December 1961, the wild ass population was reduced to just 870 after to the outbreak of South African Horse Sickness. Besides disease, other threats include habitat degradation due to salt activities, the invasion of the Prosopis juliflora shrub, and encroachment and grazing by the Maldhari. Conservation efforts since 1969 have helped boost the population to 4000.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Indian_wild_ass">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Gavialis gangeticus</p>'+
+                     '<p>The gharial, also known as the gavial, and the fish-eating crocodile, is a crocodilian of the family Gavialidae, native to the northern part of the Indian Subcontinent. The global gharial population is estimated at fewer than 235 individuals, which are threatened by loss of riverine habitat, depletion of fish resources, and entanglement in fishing nets.</p>'+
+                     '<p>The gharial population is estimated to have declined from 5,000 to 10,000 individuals in 1946 to fewer than 235 individuals alive in 2006, a decline of 96 to 98% within three generations. They were killed by fishermen, overhunted for skins, trophies and indigenous medicine, and their eggs collected for consumption. In December 2007, several gharials were found dead in the Chambal River. Initially, it was suspected that fishermen illegally had caught fish using nets, in which gharials became trapped and subsequently drowned. Later post mortem pathological testing of tissue samples from the dead gharials revealed high levels of heavy metals such as lead and cadmium, which together with stomach ulcers and protozoan parasites reported in most necropsies were thought to have caused their deaths.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Gharial">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Ardea insignis</p>'+
+                     '<p>The white-bellied heron, also known as the imperial heron or great white-bellied heron, is a species of large heron found in the foothills of the eastern Himalayas in India, northeastern Bangladesh, Burma and Bhutan. It is mostly dark grey with a white throat and underparts. This heron is mostly solitary and is found on undisturbed riverside or wetland habitats.</p>'+
+                     '<p>A nesting site of white-bellied heron has been discovered in a remote part of the Namdapha Tiger Reserve in Arunachal Pradesh in 2014. It is estimated that there are only 250 white-bellied herons left in the world and only about 50 left in India. The Department of Science and Technology, Government of India, has funded a three-year study on the species with a view to document the foraging behaviour of the critically endangered bird.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/White-bellied_heron">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Rhinoceros unicornis</p>'+
+                     '<p>The Indian rhinoceros, also called the greater one-horned rhinoceros and great Indian rhinoceros, is a rhinoceros native to the Indian subcontinent. The Indian rhinoceros once ranged throughout the entire stretch of the Indo-Gangetic Plain, but excessive hunting and agricultural development reduced their range drastically to 11 sites in northern India and southern Nepal. In the early 1990s, between 1,870 and 1,895 rhinos were estimated to have been alive. In 2015, a total of 3,555 Indian rhinoceros are estimated to live in the wild.</p>'+
+                     '<p>Sport hunting became common in the late 1800s and early 1900s. Indian rhinos were hunted relentlessly and persistently. Reports from the middle of the 19th century claim that some British military officers in Assam individually shot more than 200 rhinos. By 1908, the population in Kaziranga had decreased to around 12 individuals. The species is inherently at risk because over 70% of its population occurs at a single site, Kaziranga National Park. Any catastrophic event such as disease, civil disorder, poaching, or habitat loss would have a devastating impact. However, small population of rhinos may be prone to inbreeding depression.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Indian_rhinoceros">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Lutrogale perspicillata</p>'+
+                     '<p>The smooth-coated otter is a species of otter, the only extant representative of the genus Lutrogale. The species is found in most of the Indian Subcontinent and eastwards to Southeast Asia, with a disjunct population in Iraq. As its name indicates, the fur of this species is smoother and shorter than that of other otters.</p>'+
+                     '<p>Major threats to Asian otter population are loss of wetland habitats due to construction of large-scale hydroelectric projects, reclamation of wetlands for settlements and agriculture, reduction in prey biomass, poaching, and contamination of waterways by pesticides. In most Asian countries, increased human population during the last century, inadequate and ineffective rural development programmes have not been able to address the problems of poverty, forcing people to be more and more dependent on natural resources.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Smooth-coated_otter">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Ardeotis nigriceps</p>'+
+                     '<p>The Great Indian Bustard or Indian bustard is a bustard found in India and the adjoining regions of Pakistan. A large bird with a horizontal body and long bare legs, giving it an ostrich like appearance, this bird is among the heaviest of the flying birds. Once common on the dry plains of the Indian subcontinent, as few as 250 individuals were estimated in 2011 to survive and the species is critically endangered by hunting and loss of its habitat, which consists of large expanses of dry grassland and scrub.</p>'+
+                     '<p>The main threats are hunting and habitat loss. In the past they were heavily hunted for their meat and for sport and, today, poaching of the species may continue. In some places, such as Rajasthan, increased irrigation by the Indira Gandhi canal has led to increased agriculture and the altered habitat has led to the disappearance of the species from these regions.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Great_Indian_bustard">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Melursus ursinus</p>'+
+                     '<p>The sloth bear, also known as the Stickney bear or labiated bear, is a nocturnal insectivorous bear species found wild within the Indian Subcontinent. The sloth bear evolved from ancestral brown bears during the Pleistocene and shares features found in insect-eating mammals through convergent evolution.</p>'+
+                     '<p>IUCN estimates that less than 20,000 sloth bears survive in the wilds of the Indian subcontinent and Sri Lanka.  Historically, humans have drastically reduced their habitat and diminished their population by hunting them for food and products such as their bacula and claws. These bears have been used as performing pets due to their tameable nature.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Sloth_bear">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Trachypithecus geei</p>'+
+                     '<p>Golden langur, is an Old World monkey found in a small region of western Assam, India and in the neighboring foothills of the Black Mountains of Bhutan. It is one of the most endangered primate species of India.</p>'+
+                     '<p>total Indian population in 2001 of 1,064 individuals, in 130 groups, was recorded. Of these, approximately 60% were adults indicating a relative lack of infants and juveniles. The relative death of infants and juveniles indicate a declining population and with the habitat being degraded by human activity. A fragmented but protected population in a rubber plantation in Nayakgaon, Kokrajhar district of Assam increased in population from 38 individuals in 1997 to 52 in 2002.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Gee%27s_golden_langur">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Elephas maximus indicus</p>'+
+                     '<p>The Indian elephant is one of three recognized subspecies of the Asian elephant and native to mainland Asia. </p>'+
+                     '<p>The pre-eminent threats to Asian elephants today are habitat loss, degradation, and fragmentation, which are driven by an expanding human population, and lead in turn to increasing conflicts between humans and elephants when elephants eat or trample crops. Loss of significant extents of elephant range and suitable habitat continues; their free movement is impeded by reservoirs, hydroelectric projects and associated canals, irrigation dams, numerous pockets of cultivation and plantations, highways, railway lines, mining and industrial development.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Indian_elephant">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Sarcogyps calvus</p>'+
+                     '<p>The Red-headed Vulture is also known as the Asian King Vulture, Indian Black Vulture or Pondicherry Vulture (though there are unrelated species in the New World which share the names king vulture and black vulture). It is mainly found in the Indian Subcontinent, with small disjunct populations in some parts of Southeast Asia.</p>'+
+                     '<p>The red-headed vulture used to be declining, but only slowly; in 2004 the species was uplisted to Near Threatened from Least Concern by the IUCN. The widespread use of the NSAID Diclofenac in veterinary medicine in India has caused its population to collapse in recent years, however. Diclofenac is a compound now known to be extremely poisonous to vultures. The red-headed vulture population has essentially halved every other year since the late 1990s, and what once was a plentiful species numbering in the hundreds of thousands has come dangerously close to extinction in less than two decades. Consequently, it was uplisted to Critically Endangered in the 2007 IUCN Red List.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Red-headed_vulture">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Martes gwatkinsii</p>'+
+                     '<p>The Nilgiri marten is the only species of marten found in southern India. It occurs in the hills of the Nilgiris and parts of the Western Ghats. Tamil name is "Neer Naai".</p>'+
+                     '<p>The Nilgiri marten is similar to the yellow-throated marten, but is larger and essentially different in the structure of the skull, it has a prominent frontal concavity. It is unmistakable in the field as it is dark above with a bright throat ranging in colour from yellow to orange. which is the deep brown from head to rump, the forequarters being almost reddish. The species is reported from the Nilgiris, parts of southern Kodagu and Travancore Kerala, up to the Charmadi ghats. Very little is known about the Nilgiri marten. It is diurnal, and though arboreal, descends to the ground occasionally. It is reported to prey on birds, small mammals and insects such as cicadas.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Nilgiri_marten">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Pantholops hodgsonii</p>'+
+                     '<p>The Tibetan antelope or chiru is a medium-sized bovid native to the Tibetan plateau. Fewer than 75,000 individuals are left in the wild. In recent years,they have become endangered due to poaching. They are hunted for their soft and warm wool which is usually obtained after death. This wool is known as shahtoosh and is used to weave shawls . At present, international trade in their products is strictly prohibited.</p>'+
+                     '<p>Although the wool can be obtained without killing the animal, poachers simply kill the chiru before taking the wool; their numbers have dropped accordingly from nearly a million (estimated) at the turn of the 20th century to less than 75,000 today. The numbers continue to drop yearly. The struggle to stop illegal antelope hunting was portrayed in the 2004 film, Kekexili: Mountain Patrol.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Tibetan_antelope">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Houbaropsis bengalensis</p>'+
+                     '<p>The Bengal florican, also called Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia and Vietnam. It is listed as Critically Endangered on the IUCN Red List because fewer than 1,500 individuals were estimated to be alive as of 2013.</p>'+
+                     '<p>Restricted to tiny fragments of grassland scattered across South and Southeast Asia, the Bengal florican is the rarest bustard in the world. It is known to have become increasingly threatened by land conversion for intensive agriculture, particularly for dry season rice production. Poaching continues to be a problem in Southeast Asia, while the South Asian population is down to less than 350 adult birds, about 85% of which are found in India. Though more threatened, birds in Southeast Asia may number as many as in South Asia but more probably closer to or even less than 1,000 adults.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Bengal_florican">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Ailurus fulgens</p>'+
+                     '<p>The red panda, also called lesser panda, red bear-cat, and red cat-bear, is a small arboreal mammal native to the eastern Himalayas and southwestern China that has been classified as endangered by the IUCN as its wild population is estimated at less than 10,000 mature individuals. The population continues to decline and is threatened by habitat loss and fragmentation, poaching, and inbreeding depression, although red pandas are protected by national laws in their range countries.</p>'+
+                     '<p>The primary threats to red pandas are direct harvest from the wild, live or dead, competition with domestic livestock resulting in habitat degradation, and deforestation resulting in habitat loss or fragmentation. The relative importance of these factors is different in each region, and is not well understood. For instance, in India, the biggest threat seems to be habitat loss followed by poaching, while in China, the biggest threat seems to be hunting and poaching. A 40% decrease in red panda populations has been reported in China over the last 50 years, and populations in western Himalayan areas are considered to be lower.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Red_panda">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Cuon alpinus</p>'+
+                     '<p>The dhole is a canid native to Central, South and Southeast Asia. Other English names for the species include Asiatic wild dog, Indian wild dog, whistling dog, red wolf(not to be confused with Canis rufus), red dog and mountain wolf.</p>'+
+                     '<p>The dhole only rarely takes domestic livestock. Certain people, such as the Kurumbas and some Mon Khmer-speaking tribes will appropriate dhole kills; some Indian villagers welcome the dhole because of this appropriation of dhole kills. Dholes were persecuted throughout India for bounties until they were given protection by the Wildlife Protection Act of 1972. Methods used for dhole hunting included poisoning, snaring, shooting and clubbing at den sites. Native Indian people killed dholes primarily to protect livestock, while British sporthunters during the British Raj did so under the conviction that dholes were responsible for drops in game populations. Persecution of dholes still occurs with varying degrees of intensity according to region. Bounties paid for dholes used to be 25 rupees, though this was reduced to 20 in 1926 after the number of presented dhole carcasses became too numerous to maintain the established reward.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Dhole">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Vanellus gregarius</p>'+
+                     '<p>The sociable lapwing or sociable plover is a critically endangered wader in the lapwing family of birds. This attractive medium-sized lapwing has longish black legs and a short black bill. Summer adults have grey backs and breast, dark belly and white undertail.</p>'+
+                     '<p>The main decline took place between 1960 and 1987, when the known population halved; it is some 20 to 25% of the 1930s population levels. The current population was estimated to be between 600 and 1,800 mature birds in 2006, but is being revised to the upward end of that scale, possibly more, following the discovery of previously unknown main wintering grounds in Syria, where 1500 birds of all ages were encountered.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Sociable_lapwing">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Near Threatened</p>'+
+                     '<p>Scientific Name: Capra falconeri</p>'+
+                     '<p>The markhor is a large species of wild goat that is found in northeastern Afghanistan, northern and central Pakistan, Kashmir, southern Tajikistan and southern Uzbekistan. The species was classed by the IUCN as Endangered until 2015 when it was down listed to Near Threatened, as their numbers have increased in recent years by an estimated 20% for last decade. The markhor is the national animal of Pakistan.</p>'+
+                     '<p>Markhor are potential prey for snow leopards, brown bears, lynx, jackals, and golden eagles. While not directly causing their endangerment, the already small population of markhor is further threatened by their predation. Hunting for meat as a means of subsistence or trade in wildlife parts adds to the growing problem for wildlife managers in many countries. Poaching, with its indirect impacts as disturbance, increasing fleeing distances and resulting reduction of effective habitat size, is by far the most important factor threatening the survival of the markhor population. The most important types of poachers seem to be local inhabitants, state border guards, the latter usually relying on local hunting guides, and Afghans, illegally crossing the border.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Markhor">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Pteropus faunulus</p>'+
+                     '<p>The Nicobar flying fox is a species of flying fox in the family Pteropodidae. It is endemic to India. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical swamps. It is threatened by habitat loss due to forest clearing.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Nicobar_flying_fox">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Pangshura sylhetensis</p>'+
+                     '<p>The Assam roofed turtle, also known as Sylhet roofed turtle is a species of the Geoemydidae family of turtles found in the Brahmaputra-Meghna drainage in India (Assam) and parts of eastern Bangladesh</p>'+
+                     '<p>The Assam roofed turtle is a rare species known only from a few individuals; it is believed to have one of the narrowest distributions of any south Asian geoemydid. It is exploited for its meat and eggs for local consumption and may also enter the pet trade. Habitat destruction by logging and incidental capture in fishing gear are also thought to present threats.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Assam_roofed_turtle">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Raorchestes chalazodes</p>'+
+                     '<p>Raorchestes chalazodes (chalazodes bubble-nest frog, white-spotted bush frog, or Gunther bush frog) is a species of frog in the Rhacophoridae family. It is endemic to the Western Ghats of India. A unique distinctive trait is its black iris with golden patches.</p>'+
+                     '<p>Albert C. L. G. Gunther described Raorchestes chalazodes (as Ixalus chalazodes) based on a single female collected by Colonel Richard Henry Beddome from Travancore. There were no verifiable reports of this species, until its rediscovery in 2011 by a team of batrachologists in the Upper Kodayar Region in Tamil Nadu. This secretive frog is found in the wet evergreen forests in and around Kalakkad Mundanthurai Tiger Reserve.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Raorchestes_chalazodes">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Athene blewitti</p>'+
+                     '<p>The forest owlet is an owl that is endemic to the forests of central India. This bird is on the verge of extinction. This species belongs to the typical owls family, Strigidae. After it was described in 1873 and it was not seen after 1884 and considered extinct until it was rediscovered 113 years later in 1997.</p>'+
+                     '<p>The forest owlet remains critically endangered, and the population in 2015 was estimated by Birdlife International at less than 250. It is thought that this owl has always been rare. The original specimens were collected in dense jungle, and the recent sightings in more open forest may represent suboptimal habitat. The forest in the plains in its range has been totally cleared, and there is pressure on the remaining forest resources. A survey in 2011 in non-protected areas of Maharashtra and Madhya Pradesh confirmed the presence of the species at two locations. In Maharashtra a pair was observed (out of 7 pairs in 2004) in Toranmal Reserve Forest and in Madhya Pradesh six individuals were observed in Khaknar. An individual was located in Tansa in the northern Western Ghats in 2014.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Forest_owlet">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Nilgiritragus hylocrius</p>'+
+                     '<p>The Nilgiri tahr known locally as the Nilgiri ibex or simply ibex, is an ungulate that is endemic to the Nilgiri Hills and the southern portion of the Western Ghats in the states of Tamil Nadu and Kerala in Southern India. It is the state animal of Tamil Nadu.</p>'+
+                     '<p>As few as 100 Nilgiri tahrs were left in the wild by the early 20th century. Since that time their numbers have inceased somewhat; in a comprehensive study of the Nilgiri tahr population in Western Ghats, the WWF-India has put the population at 3,122. Their range extends over 400 kilometres (250 mi) from north to south, and Eravikulam National Park is home to the largest population.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Nilgiri_tahr">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Critically Endangered</p>'+
+                     '<p>Scientific Name: Ophrysia superciliosa</p>'+
+                     '<p>The Himalayan quail or mountain quail is a medium-sized quail belonging to the pheasant family. It was last reported in 1876 and is feared extinct. This species was known from only 2 locations (and 12 specimens) in the western Himalayas in Uttarakhand, north-west India. The last verifiable record was in 1876 near the hill station of Mussoorie.</p>'+
+                     '<p>The Himalayan Quail has not been reliably recorded in the wild after 1876. The locations where they were historically found have been greatly altered by human activity and the current habitats in these locations may not represent their normal habitat requirements. A 2015 study examined the rate of extinction and suggested that the species might still be extant and using the habitat preference of monal suggest that there might some locations around Mussoorie where intensive surveys could be attempted.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Himalayan_quail">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Sahyadria denisonii</p>'+
+                     '<p>Sahyadria denisonii (Denison barb, red-line torpedo barb, or roseline shark) is a species of cyprinid fish endemic to the fast-flowing hill streams and rivers of the Western Ghats in India. It is commonly seen in the aquarium trade.</p>'+
+                     '<p>As reported by Practical Fishkeeping in January 2009, new research by team of scientists from India suggests that the species is being over-exploited for the aquarium trade, potentially placing it at risk of extinction. In spite of being listed as Endangered by local assessment reports the fish had been promoted as an Export item by several government agencies. The population structure, age, growth, mortality and harvest intensity in the Valapattanam River was studied and suggests that the species is being over-exploited.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Sahyadria_denisonii">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Endangered</p>'+
+                     '<p>Scientific Name: Macaca silenus</p>'+
+                     '<p>The lion-tailed macaque, or the wanderoo, is an Old World monkey endemic to the Western Ghats of South India.</p>'+
+                     '<p>A recent assessment for IUCN reports 3000 to 3500 of these animals live scattered over several areas in Kerala. The lion-tailed macaque ranks among the rarest and most threatened primates. Their range has become increasingly isolated and fragmented by the spread of agriculture and tea, coffee, teak and cinchona, construction of water reservoirs for irrigation and power generation, and human settlements to support such activities. They do not live, feed or travel through plantations. Destruction of their habitat and their avoidance of human proximity have led to the drastic decrease of their population.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Lion-tailed_macaque">View Wikipedia page in new tab</a></p>',
+
+                     '<p class="status">Vulnerable</p>'+
+                     '<p>Scientific Name: Bos grunniens</p>'+
+                     '<p>The yak is a long-haired bovid found throughout the Himalaya region of southern Central Asia, the Tibetan Plateau and as far north as Mongolia and Russia.</p>'+
+                     '<p>Wild yaks are found primarily in northern Tibet and western Qinghai, with some populations extending into the southernmost parts of Xinjiang, and into Ladakh in India. Small, isolated populations of wild yak are also found farther afield, primarily in western Tibet and eastern Qinghai as well as some parts of Sichuan nearer to Huanglong. In historic times, wild yaks were also found in Nepal and Bhutan, but they are now considered extinct in both countries, except as domesticated animals.</p>'+
+                     '<p><a href="https://en.wikipedia.org/wiki/Yak">View Wikipedia page in new tab</a></p>'
+        ]
 
 var speciessvg = ['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="500px" height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve"><polygon fill="#292E30" points="97.667,77.249 144.611,100 170.89,77.249"/><polygon fill="#202628" points="67.833,79.667 170.89,77.249 97.375,68.25"/><polygon fill="#1A1F21" points="86.5,55.083 170.89,77.249 56.5,65.004"/><polygon fill="#161A1C" points="170.89,77.249 40.5,46.75 82.833,43.833"/><polygon fill="#0E1011" points="170.89,77.249 34.958,29.853 136.5,39"/><polygon fill="#EDEDED" points="216.987,164.313 144.611,100 195,55.083"/><polygon fill="#F9F9F9" points="136.5,39 207.703,118.193 195,55.083"/><polygon fill="#F9F9F9" points="223.125,203.5 195,201.312 216.987,164.313"/><polygon fill="#0E1011" points="220.875,187.5 186,258.875 221.556,195.218"/><polygon fill="#F6F6F6" points="223.125,203.5 251.449,108.395 195,55.083"/><polygon fill="#FBFBFB" points="223.125,203.5 290.313,128.563 251.25,108.292"/><polygon fill="#F9F9F9" points="282.833,102.833 251.25,108.813 290,129"/><polygon fill="#F9F9F9" points="284.471,108.813 318.75,46.75 326.5,41.25"/><polygon fill="#F4F4F4" points="318.75,46.75 284.471,108.813 277.063,103.926"/><polygon fill="#F9F9F9" points="313.375,41.875 318.75,46.75 301.808,70.583"/><polygon fill="#C63C3C" points="318.75,46.75 313.375,41.875 312.667,47.5"/><polygon fill="#AA3131" points="313.375,41.875 321,38.663 318.75,46.75"/><polygon fill="#F2C949" points="314,42.525 316.061,41.748 315.146,44.002"/><polygon fill="#AA3131" points="326.5,41.25 318.375,46.75 339.75,21"/><polygon fill="#8C2C2C" points="318.75,46.75 320.404,39.225 339.75,21"/><polygon fill="#F9F9F9" points="240.329,223.662 223.125,203.5 256.563,184.599"/><polygon fill="#0E1011" points="240.329,193.775 191,262.333 233.272,197.764"/><polygon fill="#F6F6F6" points="223.125,203.5 290.196,128.502 350.5,131.5"/><polygon fill="#EDEDED" points="329.25,195 350.5,131.5 255.5,184.599"/><polygon fill="#F9F9F9" points="306.25,155.896 350.5,131.5 386.034,173.5"/><polygon fill="#292E30" points="329.25,195 382.917,228.083 339.75,163.624"/><polygon fill="#202628" points="389,239 339.75,163.624 387.125,216.25"/><polygon fill="#1A1F21" points="406,241.5 400.125,217.125 339.75,163.624"/><polygon fill="#161A1C" points="429.5,247.313 339.75,163.624 410.25,215.5"/><polygon fill="#0E1011" points="446.167,245.049 386.034,173.5 339.75,163.624"/></svg>',
                   '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="500px" height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve"><polygon fill="#333333" points="154,90.833 91.75,23.25 158.333,103.833"/><polygon fill="#4C4C4C" points="121.802,58.446 127.167,65 119.743,17.053"/><polygon fill="#333333" points="122.296,35.631 142.892,18.303 121.833,41.833"/><polygon fill="#4C4C4C" points="138.501,79.831 83.292,67.459 143.621,85.993"/><polygon fill="#333333" points="106.095,73.451 97.125,46.994 111.25,75.125"/><polygon fill="#8E6E5C" points="154,105.25 190.25,105.25 162.125,145.462"/><polygon fill="#4C4C4C" points="159.333,108.333 165.108,105.25 142.892,65"/><polygon fill="#4C4C4C" points="200.935,65 178.719,105.25 184.493,108.333"/><polygon fill="#333333" points="185.493,103.833 252.077,23.25 189.827,90.833"/><polygon fill="#4C4C4C" points="200.206,85.993 260.535,67.459 205.326,79.831"/><polygon fill="#333333" points="232.577,75.125 246.702,46.994 237.732,73.451"/><polygon fill="#4C4C4C" points="224.084,17.053 216.66,65 222.025,58.446"/><polygon fill="#333333" points="221.993,41.833 200.935,18.303 221.531,35.631"/><polygon fill="#8E6E5C" points="185.916,127.738 159.333,112.333 173.25,185.167"/><polygon fill="#7F5F4A" points="182.5,123 173.25,185.167 202.331,156.75"/><polygon fill="#876751" points="182.5,145.462 190.25,105.25 162.125,145.462"/><polygon fill="#383838" points="163.5,120.781 163.5,116.708 166.883,116.708"/><polygon fill="#383838" points="180.25,120.781 177.188,116.708 180.25,116.708"/><polygon fill="#383838" points="172.125,138.375 182.5,145.462 162.125,145.462"/><polygon fill="#8E6E5C" points="223.5,230.75 200.917,153.782 173.25,185.167"/><polygon fill="#705749" points="208.161,285.333 196.5,215.5 206.5,217.167"/><polygon fill="#7F5F4A" points="223.5,230.75 196.5,215.5 173.25,185.167"/><polygon fill="#8E6E5C" points="222.236,294.041 223.5,230.25 213.581,225.148"/><polygon fill="#876751" points="298.5,231.667 200.587,153.782 223.083,230.75"/><polygon fill="#8E6E5C" points="292.146,231.667 200.587,153.782 335.167,168.833"/><polygon fill="#7F5F4A" points="200.613,153.872 335.232,169.098 304.5,150.167"/><polygon fill="#705749" points="324,279.833 314.512,239.333 335.167,168.833"/><polygon fill="#876751" points="321.766,235.105 291.583,231.583 335.167,168.833"/><polygon fill="#8E6E5C" points="307.661,233.125 316.25,291.25 321.832,234.779"/><polygon fill="#7F5F4A" points="343.125,195.5 334.802,168.833 332,195.875"/></svg>',
@@ -153,38 +328,6 @@ var speciessvg = ['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://w
                   '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="500px" height="300px" viewBox="0 0 500 300" enable-background="new 0 0 500 300" xml:space="preserve"><polygon fill="#181413" points="127.708,91.577 135.789,182.796 106.25,200.074"/><polygon fill="#211B1A" points="185.115,258.317 189.945,229.985 126.315,178.058"/><polygon fill="#2B2322" points="141.642,258.317 126.315,178.058 186.229,258.317"/><polygon fill="#2B2322" points="126.315,178.058 191.018,234.317 127.708,91.577"/><polygon fill="#211B1A" points="205.179,110.69 203.461,270.578 127.708,91.577"/><polygon fill="#2B2322" points="168.952,49.59 127.708,91.577 205.626,111.389"/><polygon fill="#211B1A" points="205.179,111.734 168.952,49.59 226.637,51.262"/><polygon fill="#2B2322" points="226.637,51.262 203.229,114.428 275.777,22.465"/><polygon fill="#211B1A" points="314.516,41.873 203.229,113.127 275.777,22.465"/><polygon fill="#211B1A" points="249.962,80.97 204.41,112.082 273.844,240.946"/><polygon fill="#211B1A" points="340.615,216.479 300.114,272.248 344.536,272.248"/><polygon fill="#181413" points="300.114,272.248 340.615,220.376 223.572,193.385"/><polygon fill="#211B1A" points="254.783,270.578 264.375,202.795 203.229,270.578"/><polygon fill="#2B2322" points="203.229,270.578 204.413,108.822 264.286,203.422"/><polygon fill="#2B2322" points="267.788,205.647 314.516,41.873 248.095,72.097"/><polygon fill="#211B1A" points="344.594,217.566 314.234,41.787 267.699,204.991"/><polygon fill="#211B1A" points="344.662,217.158 307.917,240.946 267.593,204.22"/><polygon fill="#2B2322" points="313.897,41.577 344.423,218.211 369.665,68.238"/><polygon fill="#C1B69A" points="332.812,201.188 293.054,201.188 284.88,137.531"/><polygon fill="#E2D9C9" points="293.054,201.188 332.812,201.188 312.933,175.3"/><polygon fill="#B7AB8F" points="283.5,137.5 340.615,138.765 332.812,201.188"/><polygon fill="#181413" points="281.908,138.765 346.56,138.765 312.376,49.59"/><polygon fill="#211B1A" points="246.98,74.392 312.376,49.59 281.908,138.765"/><polygon fill="#211B1A" points="372.384,72.978 346.56,138.765 312.376,49.59"/><polygon fill="#181413" points="259.274,95.378 236.887,91.577 250.731,78.95"/><polygon fill="#181413" points="384.686,82.473 363.395,93.33 370.15,76.119"/><polygon fill="#AFA07E" points="258.72,69.939 250.856,81.534 228.449,65.335"/><polygon fill="#AFA07E" points="369.364,80.67 394.399,63.523 362.442,69.103"/><polygon fill="#C1B69A" points="223.572,25.066 241.184,67.679 228.449,65.335"/><polygon fill="#C1B69A" points="394.399,63.523 398.833,25.066 382.416,67.1"/></svg>'
                  ];
 
-var FirefoxPath = ['siberiancrane',
-                   'himalayanwolf',
-                   'barasingha',
-                   'narcondamhornbill',
-                   'indianass',
-                   'gharial',
-                   'whitebelliedheron',
-                   'indianrhino',
-                   'greatindianbustard',
-                   'tibetianantelope',
-                   'redpanda',
-                   'roselineshark',
-                   'indianbear',
-                   'markhor',
-                   'forestowlet',
-                   'redheadedvulture',
-                   'indianelephant',
-                   'nicobarflyingfox',
-                   'guntherbushfrog',
-                   'nilgiritahr',
-                   'liontailedmacaque',
-                   'sociablelapwing',
-                   'nilgirimarten',
-                   'dhole',
-                   'bengalflorican',
-                   'smoothcoatedotter',
-                   'goldenlangur',
-                   'himalayanquail',
-                   'assamroofedturtle',
-                   'yak'
-                  ];
-
 var currentSelection = 0;
 var shuffle;
 var shuffleOn = false;
@@ -216,7 +359,7 @@ var change = function(points, colors, type) {
 
   $('.shard').each(function(i, obj) {
         animateshards($(this), i, i*type);
-        console.log(i*type);
+      //  console.log(i*type);
   });
 };
 
@@ -355,11 +498,6 @@ var BeginShowcase = function() {
   },3000);
 };
 
-var setAboutDetails = function() {
-  $('#detailheader').html(aboutHeader);
-  $('#detailbody').html(aboutBody);
-};
-
 var setInfoDetails = function() {
   $('#detailheader').html(name[currentSelection]);
   $('#detailbody').html(speciesdetail[currentSelection]);
@@ -391,19 +529,8 @@ var changename = function(name){
   });
 };
 
-var aboutView = function(){
-    clearInterval(shine);
-    shuffleoff();
-    $('#overlay').fadeIn(500);
-    $('#aboutwrapper').fadeIn(700);
-    setAboutDetails();
-};
-
 var infoView = function(){
-  clearInterval(shine);
   shuffleoff();
-  $('#overlay').fadeIn(500);
-  $('#aboutwrapper').fadeIn(700);
   setInfoDetails();
 };
 
@@ -486,15 +613,6 @@ $('#introbtn').click(function() {
     BeginShowcase();
 });
 
-$('#about').click(function(){
-    console.log(output);
-    aboutView();
-});
-
-$('#info').click(function(){
-    infoView();
-});
-
 $('#shufflebtn').click(function(){
     if( shuffleOn === false ) {
       shuffleSpecies();
@@ -517,16 +635,18 @@ $('#next').click(function(){
     setCurrentValues();
 });
 
-$('#closebtn').click(function(){
-  $('#aboutwrapper').fadeOut(300);
-  $('#overlay').fadeOut(500);
-  shine = setInterval(shimmer, 4000);
-});
-
-$('.button').click(function (e) {
+$('#infobtn').click(function (e) {
+  infoView();
   e.preventDefault();
   $(this).parent().toggleClass('expand');
   $(this).parent().children().toggleClass('expand');
+});
+
+$('#aboutbtn').click(function (e) {
+  e.preventDefault();
+  $(this).parent().toggleClass('expand');
+  $(this).parent().children().toggleClass('expand');
+  shuffleoff();
 });
 
 })();
